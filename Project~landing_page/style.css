@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grand-parent {
+    background-color: #1F2937;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    height: 72vh;
+    font-size: 24px;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1F2937;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9fAf8;
+    flex-grow: 9;
+}
+
+.ducatti {
+    font-weight: 100;
+    flex-basis: 5;
+}
+
+.triumph {
+    font-weight: 100;
+    flex-basis: 5;
+}
+
+.harleyDavidson {
+    font-weight: 100;
+    flex-basis: 5;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.hooks {
+    font-size: 18px;
+    padding-left: 20px;
+    color: #E5E7EB;
+}
+
+.container-headerBottom {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-wrap;
+    justify-content: center;
+    margin-top: 5opx;
+}
+
+.websiteHeader {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-top: 50px;
+}
+
+.themeMessage {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-top: 50px;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 650;
+    width: 150px;
+    height: 40px;
+    padding: 8px 40px 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 76px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.btn:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 650;
+    width: 150px;
+    height: 40px;
+    padding: 8px 40px 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: royalblue;
+    color: #F9FAF8;
+}
+
+.themePicture {
+    width: 630px;
+    height: 290px;
+    align-self: end;
+    margin-top: -300px;
+}
