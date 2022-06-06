@@ -4,7 +4,11 @@
     padding: 0;
 }
 
+
+/* header top */
+
 .grand-parent {
+    position: static;
     background-color: #1F2937;
     padding-left: 60px;
     padding-right: 60px;
@@ -29,6 +33,16 @@
     font-weight: 900;
     color: #f9fAf8;
     flex-grow: 9;
+}
+
+.companyLogoPix {
+    height: 80px;
+    width: 68px;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: -16px;
+    margin-left: -20px;
 }
 
 .ducatti {
@@ -56,6 +70,12 @@
     font-size: 18px;
     padding-left: 20px;
     color: #E5E7EB;
+}
+
+.hooks:hover {
+    font-size: 18px;
+    padding-left: 20px;
+    color: red;
 }
 
 .container-headerBottom {
@@ -88,7 +108,7 @@
     padding: 8px 40px 20px;
     cursor: pointer;
     text-align: center;
-    margin-top: 76px;
+    margin-top: 64px;
     background-color: #3882F6;
     color: #F9FAF8;
 }
@@ -103,6 +123,7 @@
     padding: 8px 40px 20px;
     cursor: pointer;
     text-align: center;
+    margin-top: 64px;
     background-color: royalblue;
     color: #F9FAF8;
 }
@@ -111,5 +132,123 @@
     width: 630px;
     height: 290px;
     align-self: end;
-    margin-top: -300px;
+    margin-top: -320px;
+}
+
+
+/* first part main top section */
+
+.main-section {
+    box-sizing: border-box;
+    position: static;
+    padding: 0;
+    margin: 0;
+}
+
+.container-leftSide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: auto;
+    gap: 10px;
+    border-radius: 1px solid black;
+    background-color: #E5E7EB;
+}
+
+.headerMain {
+    font-family: inherit;
+    font-size: 24px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.bikeSummary {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.picture {
+    width: 700px;
+    float: right;
+    height: 340px;
+    margin-top: 0;
+    align-self: end;
+    padding-bottom: 40px;
+    padding-right: 60px;
+    margin-top: -140px;
+}
+
+
+/* second part bottom of main */
+
+.container-rightSide {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.bottom-main {
+    width: 710px;
+    height: 360px;
+    padding: 10px;
+}
+
+
+/* footer section */
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+    border: 1px solid black;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.signUp {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 650;
+    width: 150px;
+    height: 40px;
+    padding: 8px 40px 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 64px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding-left: 40px;
+}
+
+.signUp:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 650;
+    width: 150px;
+    height: 40px;
+    padding: 8px 40px 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 64px;
+    background-color: #3882F6;
+    background-color: royalBlue;
+    padding-left: 40px;
+}
+
+.copyRight {
+    padding-bottom: 10px;
 }
